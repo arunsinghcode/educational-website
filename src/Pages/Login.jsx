@@ -1,19 +1,21 @@
+import "./Login.css";
+import { Link } from "react-router-dom";
+
 function Login() {
-  const handleLogin = () => {
-    alert("Login functionality can be added later");
-  };
-
   return (
-    <div>
-      <h2>Login</h2>
+    <div className="login-container">
+      <div className="login-card">
+        <h2>Login</h2>
 
-      <input placeholder="Email" />
-      <br />
+        <input type="email" placeholder="Enter Email" />
+        <input type="password" placeholder="Enter Password" />
 
-      <input type="password" placeholder="Password" />
-      <br />
+        <button className="login-btn">Login</button>
 
-      <button onClick={handleLogin}>Login</button>
+        <p className="signup-text">
+          Don't have an account? <Link to="/signup">Signup</Link>
+        </p>
+      </div>
     </div>
   );
 }

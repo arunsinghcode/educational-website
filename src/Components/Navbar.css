@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/* TOP BAR */
+/* ===== TOP BAR ===== */
 .topbar {
   background-color: #f58220;
   display: flex;
@@ -16,55 +16,55 @@
   font-weight: 500;
 }
 
-/* Right Icons */
-.top-right span {
-  margin-left: 15px;
-  cursor: pointer;
+
+
+/* LEFT TEXT */
+.top-left {
+  color: black;
 }
 
-/* MAIN NAVBAR */
+/* RIGHT ICONS */
+.top-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;   /* spacing between icons */
+}
+
+/* ICON STYLE */
+.top-right span {
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+/* ICON HOVER */
+.top-right span:hover {
+  transform: scale(1.2);
+}
+
+/* ===== MAIN NAVBAR ===== */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 18px 40px;
-  background: #eaeaea;
+  background: #ffffff;   /* white navbar */
   box-shadow: 0 3px 8px rgba(0,0,0,0.1);
 }
 
-/* LOGO */
+/* ===== LOGO ===== */
 .logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
-}
-
-/* ICON */
-.logo-icon {
-  width: 45px;
-  height: 45px;
-  background: #f58220;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
-  color: white;
-}
-
-/* TEXT */
-.logo-text {
   color: black;
 }
 
-/* Highlight */
+/* Highlight "4All" */
 .logo-text span {
   color: #f58220;
 }
 
-/* MENU */
+/* ===== NAV LINKS ===== */
 .nav-links {
   list-style: none;
   display: flex;
@@ -80,92 +80,7 @@
   transition: 0.3s;
 }
 
-/* Hover */
-.nav-links a:hover {
-  color: #f58220;
-}/* RESET */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* TOP BAR */
-.topbar {
-  background-color: #f58220;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6px 20px;
-  font-size: 15px;
-  font-weight: 500;
-}
-
-/* Right Icons */
-.top-right span {
-  margin-left: 15px;
-  cursor: pointer;
-}
-
-/* MAIN NAVBAR */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 18px 40px;
-  background: white;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-}
-
-/* LOGO */
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 22px;
-  font-weight: bold;
-}
-
-/* ICON */
-.logo-icon {
-  width: 45px;
-  height: 45px;
-  background: #f58220;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
-  color: white;
-}
-
-/* TEXT */
-.logo-text {
-  color: black;
-}
-
-/* Highlight */
-.logo-text span {
-  color: #f58220;
-}
-
-/* MENU */
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 40px;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-/* LINKS */
-.nav-links a {
-  text-decoration: none;
-  color: black;
-  transition: 0.3s;
-}
-
-/* Hover */
+/* HOVER */
 .nav-links a:hover {
   color: #f58220;
 }

@@ -1,7 +1,20 @@
+import "./Footer.css";
+
 function Footer() {
   return (
-    <footer style={{ background: "#222", color: "#fff", padding: "10px", textAlign: "center" }}>
-      <p>© 2026 Education4All</p>
+    <footer className="footer">
+
+      <div className="social-icons">
+        <span>▶</span>
+        <span>f</span>
+        <span>in</span>
+        <span>X</span>
+        <span>📸</span>
+        <span>💬</span>
+      </div>
+
+      <p>Empowering students with skills for a brighter future</p>
+
     </footer>
   );
 }

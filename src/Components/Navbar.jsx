@@ -4,31 +4,25 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <>
-      {/* Top Orange Bar */}
+      {/* Top Bar */}
       <div className="topbar">
-        <div className="top-left">
-          Subhodeep Bada
-        </div>
+        <div>📞 9686111919 9686700500 9686800700</div>
 
-        <div className="top-right">
-          <span>▶</span>
-          <span>f</span>
-          <span>in</span>
-          <span>X</span>
-          <span>◎</span>
-          <span>☏</span>
+        <div className="social">
+          <span>▶  </span>
+          <span>f  </span>
+          <span>in  </span>
+          <span>X  </span>
         </div>
       </div>
 
       {/* Main Navbar */}
       <div className="navbar">
-        {/* Logo */}
+        {/* Logo (text only) */}
         <div className="logo">
-
           <span className="logo-text">
             Education<span>4All✏️</span>
           </span>
-          
         </div>
 
         {/* Menu */}

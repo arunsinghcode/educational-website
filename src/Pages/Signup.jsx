@@ -1,19 +1,40 @@
+import "./Signup.css";
+import { Link } from "react-router-dom";
+
 function Signup() {
-  const handleSignup = () => {
-    alert("Signup functionality can be added later");
-  };
-
   return (
-    <div>
-      <h2>Signup</h2>
+    <div className="signup-container">
+      <div className="signup-card">
 
-      <input placeholder="Email" />
-      <br />
+        <h2>Create Account</h2>
 
-      <input type="password" placeholder="Password" />
-      <br />
+        <div className="form-group">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter your name" />
+        </div>
 
-      <button onClick={handleSignup}>Signup</button>
+        <div className="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="Enter your email" />
+        </div>
+
+        <div className="form-group">
+          <label>Password</label>
+          <input type="password" placeholder="Enter password" />
+        </div>
+
+        <div className="form-group">
+          <label>Confirm Password</label>
+          <input type="password" placeholder="Confirm password" />
+        </div>
+
+        <button className="signup-btn">Signup</button>
+
+        <p className="login-text">
+         Already have an account? <Link to="/login">Login</Link>
+        </p>
+
+      </div>
     </div>
   );
 }

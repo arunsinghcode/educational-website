@@ -1,0 +1,11 @@
+/* Full height layout */
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 1000px;   /* full screen height */
+}
+
+/* Main content */
+.main-content {
+  flex: 1;   /* takes remaining space */
+}

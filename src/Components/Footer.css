@@ -1,0 +1,34 @@
+/* FOOTER */
+.footer {
+  background-color: #052135;  /* navy shade */
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+/* ICONS */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* ICON STYLE */
+.social-icons span {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.social-icons span:hover {
+  color: #ff7a18;
+  transform: scale(1.2);
+}
+
+/* TEXT */
+.footer p {
+  font-size: 14px;
+  opacity: 0.8;
+}
