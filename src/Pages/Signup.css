@@ -16,6 +16,13 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
+/* .signup-card input:focus {
+  border-color: #ff7a18;
+} */
+
+
+
+
 /* HEADING */
 .signup-card h2 {
   text-align: center;

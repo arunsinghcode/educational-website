@@ -31,4 +31,12 @@
 .footer p {
   font-size: 14px;
   opacity: 0.8;
+ 
+}
+
+
+.copyright {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
 }

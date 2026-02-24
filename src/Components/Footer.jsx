@@ -13,7 +13,7 @@ function Footer() {
         <span>💬</span>
       </div>
 
-      <p>Empowering students with skills for a brighter future</p>
+      <p >Empowering students with skills for a brighter future</p>
 
     </footer>
   );

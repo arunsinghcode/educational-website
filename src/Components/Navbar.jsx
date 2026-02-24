@@ -6,7 +6,7 @@ function Navbar() {
     <>
       {/* Top Bar */}
       <div className="topbar">
-        <div>📞 9686111919 9686700500 9686800700</div>
+        <div> <strong className="copyright">&#169;Arun Singh</strong></div>
 
         <div className="social">
           <span>▶  </span>
